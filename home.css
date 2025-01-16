@@ -1,0 +1,85 @@
+:root{
+    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    --transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: var(--font-mono);
+}
+/* Section superior */
+a{
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    
+}
+
+section {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        
+        
+    }
+    input{
+        width: 500px;
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid rgb(169, 166, 166);
+    }
+
+   .boton{
+    border-radius: 4px;
+    width: 45px;
+    height: 35px;
+    background: rgb(96, 96, 240);
+    color: white;
+    
+   }
+  
+   .botonMicuenta{
+    position: absolute;
+    top: 2.8%; 
+    right: 9%;
+    border-radius: 5px;
+    
+
+   }
+ 
+   h1{
+    display: flex;
+    justify-content: center;
+   }
+
+   .containerLogo{
+    justify-content: center;
+    display: flex
+;
+
+   }
+
+
+   img{
+    width: 400px;
+    height: 400px;
+    
+    margin-top: 20px;
+   }
+
+
+
+
+  
